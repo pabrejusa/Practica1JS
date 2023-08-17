@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/styles.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <h1>Bienvenidos a mi fiesta</h1>
+  <h2>Por favor, confirmar asistencia:</h2>
+
+  <form class="formulario" id="form">
+    Nombre <input type="text" name="txtName" id="txtName">
+    Edad <input type="number" name="txtAge" id="txtAge">
+
+    Nacionalidad
+    <select name="nationality" id="nationality">
+      <option value="Argentina">Argentina</option>
+      <option value="Mexicana">Mexicana</option>
+      <option value="Peruana">Peruana</option>
+      <option value="Venezolana">Venezolana</option>
+    </select>
+    <input type="submit">
+  </form>
+
+  <div id="lista-de-invitados">
+    <h2>Lista de invitados</h2>
+  </div>
+  <script src="./js/formulario.js"></script>
+</body>
+
+</html>
